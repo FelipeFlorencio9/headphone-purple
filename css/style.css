@@ -1,5 +1,5 @@
 body{
-    height: 100vw;
+    height: 100vh;
     background-color: #76045D;
     display: grid;
     grid-template-areas: 
@@ -24,7 +24,8 @@ main{
     grid-template-columns: 380px 1fr 48px;
     padding-left: 100px;
 }
-footer{
+footer ul{
     grid-area: footer;
-    background-color: lightgreen;
+    display: flex;
+    gap: 2px;
 }
